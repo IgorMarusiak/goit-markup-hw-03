@@ -130,7 +130,8 @@ ul {
 
 .hero-container {
   background-color: #2e2f42;
-  padding: 188px 472px 292px 472px;
+  padding: 188px 292px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -173,7 +174,8 @@ ul {
 }
 
 .features-list {
-}
+  display: flex;
+  justify-content: center;
 
 .features-item {
 }
@@ -199,6 +201,7 @@ ul {
 /* ---------section-three---------- */
 .hero-team {
   background: #f4f4fd;
+   margin: 0 auto;
 }
 
 .hero-team-title {
@@ -210,6 +213,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-top: 120px;
+
 }
 
 .hero-team-list {
