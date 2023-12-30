@@ -1,5 +1,11 @@
-.visually-hidden {
+visually-hidden.css .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
   margin: -1px;
+  border: 0;
+  padding: 0;
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -151,12 +157,12 @@ ul {
 
 /**----------section-one------------- */
 .hero {
-}
-
-.hero-container {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+}
+
+.hero-container {
 }
 
 .hero-title {
@@ -223,6 +229,7 @@ ul {
 }
 
 .features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -232,7 +239,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .features-item-text {
