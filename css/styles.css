@@ -218,27 +218,16 @@ ul {
   padding-bottom: 120px;
   background: #fff;
 }
-.features-list .features-item:first-child .item-info {
-  flex-basis: calc((100% - 72px) / 4);
-}
 
 .features-list {
   display: flex;
   gap: 24px;
   padding-left: 15px;
 }
-.features-list .features-item .item-info {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
-.item-info {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
+
 .features-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.item-info:first-child {
-  flex-basis: calc((100% - 72px) / 4);
-}
+
 .features-subtitle {
   color: #2e2f42;
   font-size: 20px;
