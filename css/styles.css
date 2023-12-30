@@ -1,3 +1,10 @@
+.visually-hidden {
+  margin: -1px;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 * {
   margin: 0;
   padding: 0;
@@ -204,9 +211,13 @@ ul {
 
 /**----------section-one------------ */
 /* ----------section-two------------ */
+.features-container{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .features {
   background: #fff;
-  padding-top: 120px;
+
 }
 
 .features-list {
@@ -216,6 +227,7 @@ ul {
  
 
 .features-item {
+
 }
 
 .features-subtitle {
@@ -225,6 +237,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .features-item-text {
@@ -233,6 +246,7 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
 }
 
 /* ---------section-two------------ */
