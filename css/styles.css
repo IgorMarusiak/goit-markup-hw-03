@@ -98,6 +98,8 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link:focus {
@@ -130,7 +132,7 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0 
+
 }
 
 .header-adres-link:focus {
