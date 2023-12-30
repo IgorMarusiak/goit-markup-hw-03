@@ -223,7 +223,6 @@ ul {
   display: flex;
   gap: 24px;
   padding-left: 15px;
-  padding-left: 15px;
 }
 
 .features-item {
@@ -250,13 +249,13 @@ ul {
 /* ---------section-two------------ */
 /* ---------section-three---------- */
 .three-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .hero-team {
   background: #f4f4fd;
   margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-team-title {
@@ -266,9 +265,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
-  padding-left: 485px;
+  margin-bottom: 72px;
 }
 
 .hero-team-list {
@@ -279,6 +276,7 @@ ul {
 
 .our-team-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-members {
