@@ -225,10 +225,8 @@ ul {
 }
 
 .features-item {
-  display: flex;
-  flex-grow: 1;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 3 * 24p/ 4);
+  flex-basis: calc((100% - 72px) / 4))
 }
 
 .features-subtitle {
