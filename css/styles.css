@@ -223,7 +223,6 @@ ul {
 }
 
 .features-item {
-  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -233,6 +232,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .features-item-text {
