@@ -226,7 +226,6 @@ ul {
 }
 
 .features-item {
-  width: calc((100% - 72px) / 3);
 }
 
 .features-subtitle {
@@ -304,6 +303,7 @@ ul {
 /* ---------section-three---------- */
 /* -----------section-four--------- */
 .portfolio-container {
+  margin-bottom: 8px;
 }
 .our-portfolio {
   background: #fff;
