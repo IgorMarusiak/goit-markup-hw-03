@@ -275,6 +275,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   background-color: #ffffff;
+  gap: 24px;
 }
 
 .our-team-item {
@@ -361,7 +362,10 @@ ul {
 /*?------------main------------ */
 
 /* ------------footer---------- */
-
+.footer-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .footer {
   background: #2e2f42;
 }
@@ -374,6 +378,8 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-italic {
@@ -384,6 +390,8 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
