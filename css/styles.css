@@ -223,11 +223,9 @@ ul {
 .features-list {
   display: flex;
   gap: 24px;
-  padding-left: 15px;
 }
 
 .features-item {
-  flex-wrap: wrap;
   width: calc((100% - 72px) / 4);
 }
 
