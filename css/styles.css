@@ -304,8 +304,6 @@ ul {
 /* ---------section-three---------- */
 /* -----------section-four--------- */
 .portfolio-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .our-portfolio {
   background: #fff;
@@ -324,6 +322,8 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .our-portfolio-title {
   margin-bottom: 72px;
