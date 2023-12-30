@@ -21,12 +21,10 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
   margin: 0;
   padding: 0;
   list-style: none;
-  box-sizing: border-box;
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -39,6 +37,7 @@ a {
 }
 ul {
   list-style: none;
+  margin: ;
 }
 .visually-hidden {
   position: absolute;
@@ -202,19 +201,17 @@ ul {
 /**----------section-one------------ */
 /* ----------section-two------------ */
 .two-cantainer {
-  width: 100%;
   max-width: 1158px;
+  width: 100%;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 .features-container {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .features {
-  padding-top: 120px;
   padding-bottom: 120px;
   background: #fff;
 }
@@ -226,7 +223,7 @@ ul {
 }
 
 .features-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-subtitle {
@@ -235,6 +232,7 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 120px;
   margin-bottom: 8px;
 }
 
