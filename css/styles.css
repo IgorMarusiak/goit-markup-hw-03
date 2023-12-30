@@ -226,6 +226,7 @@ ul {
 }
 
 .features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
