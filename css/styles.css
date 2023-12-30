@@ -14,7 +14,6 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
 }
 h1,
 h2,
@@ -169,6 +168,10 @@ ul {
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   max-width: 496px;
+  max-height: 120px;
+  margin: 0 auto;
+
+
 }
 
 .hero-service-btm {
