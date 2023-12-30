@@ -37,7 +37,7 @@ a {
 }
 ul {
   list-style: none;
-  margin: ;
+  margin: 0 auto;
 }
 .visually-hidden {
   position: absolute;
@@ -212,6 +212,7 @@ ul {
 }
 
 .features {
+  padding-top: 120px;
   padding-bottom: 120px;
   background: #fff;
 }
@@ -232,7 +233,6 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 120px;
   margin-bottom: 8px;
 }
 
