@@ -309,7 +309,12 @@ ul {
 .our-portfolio {
   background: #fff;
 }
-
+.info-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 .hero-portfolio {
   color: #2e2f42;
   text-align: center;
