@@ -62,6 +62,7 @@ ul {
 .header-navigation {
   display: flex;
   align-items: center;
+  flex-grow: 1;
 }
 .header-container {
   display: flex;
@@ -220,9 +221,11 @@ ul {
   display: flex;
   gap: 24px;
   padding-left: 15px;
+  padding-left: 15px;
 }
 
 .features-item {
+  width: calc((100% - 72px * 3) / 4);
 }
 
 .features-subtitle {
@@ -232,7 +235,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .features-item-text {
