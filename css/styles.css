@@ -9,9 +9,10 @@
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 9px;
+  padding-right: 9px;
   margin: 0 auto;
+  align-items: center;
 }
 h1,
 h2,
@@ -50,8 +51,13 @@ ul {
 .header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+
 }
 .header-navigation {
+  display: flex;
+}
+.header-container{
+  display: flex;
 }
 .header-logo {
   color: #4d5ae5;
@@ -61,6 +67,8 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: flex;
+ 
 }
 .header-logo-italic {
   color: #2e2f42;
@@ -70,8 +78,10 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+ 
 }
 .header-menu-list {
+  display: flex;
 }
 .header-menu-item {
 }
@@ -94,12 +104,15 @@ ul {
 
 .header-adres {
   font-style: normal;
+  
 }
 
 .header-adres-info {
+  display: flex;
 }
 
 .header-adres-list {
+  margin-right:156px;
 }
 
 .header-adres-link {
@@ -154,9 +167,19 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin: 0 auto;
+
 }
 .hero-service-btm {
   background-color: #4d5ae5;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+
+ 
 }
 .hero-service-btm:hover {
   background-color: #404bbf;
@@ -175,7 +198,9 @@ ul {
 
 .features-list {
   display: flex;
-  justify-content: center;
+ gap: 24px;
+ padding-left: 15px;
+ 
 
 .features-item {
 }
